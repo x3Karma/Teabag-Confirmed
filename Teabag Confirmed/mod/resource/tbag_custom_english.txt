@@ -1,0 +1,12 @@
+"lang"
+{
+	"Language" "english"
+	"Tokens"
+	{
+		"PL_tbag" "Teabag Confirmed"
+		"PL_tbag_lobby" "Teabag Confirmed Lobby"
+		"PL_tbag_desc" "Killing enemy pilots drops a battery. Teabag it to score a point"
+		"PL_tbag_abbr" "TBAG"
+		"GAMEMODE_TBAG" "Teabag Confirmed"
+	}
+}

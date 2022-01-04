@@ -1,0 +1,12 @@
+"lang"
+{
+    "Language" "english"
+    "Token"
+    {
+        "PL_chamber" "One in the Chamber"
+		"PL_chamber_lobby" "One in the Chamber Lobby"
+		"PL_chamber_desc" "One Shot, One Kill. Get another bullet in your clip by scoring a kill."
+		"PL_chamber_abbr" "CHAMBER"
+		"GAMEMODE_TBAG" "One in the Chamber"
+    }
+}
