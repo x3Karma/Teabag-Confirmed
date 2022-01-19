@@ -22,6 +22,9 @@ void function CreateGamemodeTbag()
 
 	AddPrivateMatchMode( GAMEMODE_TBAG ) // add to private lobby modes
 
+	AddPrivateMatchModeSettingArbitrary( "#PL_tbag", "floatingduration", "30" )
+	AddPrivateMatchModeSettingArbitrary( "#PL_tbag", "teabagcounter", "4" )
+
 	// set this to 25 score limit default
 	GameMode_SetDefaultScoreLimits( GAMEMODE_TBAG, 25, 0 )
 

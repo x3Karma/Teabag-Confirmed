@@ -28,6 +28,7 @@ void function ClGamemodeTbag_Init()
 
 	#if CLIENT
 	RegisterConCommandTriggeredCallback( "+duck", PlayerPressed_down )
+	RegisterConCommandTriggeredCallback( "+toggle_duck", PlayerPressed_downtoggle )
 	#endif
 }
 
@@ -63,5 +64,11 @@ void function PlayerPressed_down( entity player )
 {
 #if CLIENT
 	player.ClientCommand( "Tbag_down" )
+#endif
+}
+void function PlayerPressed_downtoggle( entity player )
+{
+#if CLIENT
+	player.ClientCommand( "Tbag_downtoggle" )
 #endif
 }
